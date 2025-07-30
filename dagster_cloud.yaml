@@ -7,4 +7,4 @@ dagster-cloud:
         workspace:
           locations:
             - location_name: "production"  # 示例位置名称
-              location_url: "https://fangrenye0722.dagster.cloud"  # 示例位置 URL
+              location_url: "http://localhost:3000"  # 本地开发环境  # 示例位置 URL
