@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "my-dagster-project"
+version = "0.1.0"
+description = "A Dagster-based data pipeline project"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dagster = "^0.14.0"  # 确保你安装的是正确版本的 Dagster
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
