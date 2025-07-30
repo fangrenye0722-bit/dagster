@@ -3,10 +3,8 @@ dagster-cloud:
     environment:
       dagster-cloud:
         base_url: "https://cloud.dagster.io"
-        api_key: "agent:fangrenye0722:858d3e09f65248f395f94a3fca8c7106"  # 请确保这是有效的 API 密钥
+        api_key: "agent:fangrenye0722:55afb20ca722436a9cda24ada8f58487"  # 请确保这是有效的 API 密钥
         workspace:
           locations:
             - location_name: "production"  # 示例位置名称
-              location_url: "https://prod.dagster.com"  # 示例位置 URL
-            - location_name: "staging"  # 示例位置名称
-              location_url: "https://staging.dagster.com"  # 示例位置 URL
+              location_url: "https://fangrenye0722.dagster.cloud"  # 示例位置 URL
